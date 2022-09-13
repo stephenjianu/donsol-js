@@ -26,7 +26,6 @@ function Card (sym, value, type, name = 'Unknown') {
 
     const graphic = document.createElement('div')
     graphic.className = 'graphic'
-    graphic.innerHTML = require('fs').readFileSync(`${__dirname}/media/${this.type}/${this.value}.svg`)
     face.appendChild(graphic)
 
     // Name

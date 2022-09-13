@@ -4,8 +4,6 @@ function Controller () {
   this.menu = { default: {} }
   this.mode = 'default'
 
-  this.app = require('electron').remote.app
-
   this.start = function () {
   }
 
@@ -43,10 +41,6 @@ function Controller () {
       f.push({ label: cat, submenu: submenu })
     }
     return f
-  }
-
-  this.commit = function () {
-    this.app.inject_menu(this.format())
   }
 
   this.docs = function () {
@@ -181,5 +175,3 @@ function Controller () {
     { x: 540, y: 240, width: 90, height: 60, name: 'alt' }
   ]
 }
-
-module.exports = new Controller()

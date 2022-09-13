@@ -44,9 +44,6 @@
       </div>
     </div>
     <script type="text/javascript">
-      const {dialog,app} = require('electron').remote;
-      const fs = require('fs');
-
       let donsol = new Donsol();
 
       donsol.controller.add("default","*","About",() => { require('electron').shell.openExternal('https://github.com/hundredrabbits/Donsol'); },"CmdOrCtrl+,");
@@ -75,8 +72,6 @@
       donsol.controller.add("default","Theme","Open Theme",() => { donsol.theme.open(); },"CmdOrCtrl+Shift+o")
       donsol.controller.add("default","Theme","Reset Theme",() => { donsol.theme.reset(); },"CmdOrCtrl+Shift+Backspace")
       donsol.controller.add("default","Theme","Download Themes..",() => { require('electron').shell.openExternal('https://github.com/hundredrabbits/Themes'); })
-
-      donsol.controller.commit();
 
       donsol.install(document.body)
       donsol.start();
