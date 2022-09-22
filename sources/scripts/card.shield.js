@@ -1,7 +1,7 @@
 'use strict'
 
-function Card_Shield (sym, value, type, name = 'Unknown') {
-  Card.call(this, sym, value, type, name)
+function Card_Shield (sym, value, type, name = 'Unknown', svg = '') {
+  Card.call(this, sym, value, type, name, svg)
 
   this.touch = function () {
     if (this.is_flipped == true) { console.log('Card is already flipped'); return }

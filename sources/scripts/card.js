@@ -1,10 +1,11 @@
 'use strict'
 
-function Card (sym, value, type, name = 'Unknown') {
+function Card (sym, value, type, name = 'Unknown', svg = '') {
   this.symbol = sym
   this.value = value
   this.type = type
   this.name = name
+  this.svg = svg
 
   this.element = null
   this.is_flipped = false
@@ -26,6 +27,7 @@ function Card (sym, value, type, name = 'Unknown') {
 
     const graphic = document.createElement('div')
     graphic.className = 'graphic'
+    graphic.innerHTML = this.svg
     face.appendChild(graphic)
 
     // Name
