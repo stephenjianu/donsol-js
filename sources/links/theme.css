@@ -29,8 +29,8 @@ svg .fill_grey { opacity:0.25; fill:var(--f_low) !important }
 
 /* White */
 svg .fill_white { fill:var(--b_high) !important }
-#player a.escape { border:2px solid var(--b_high) !important; color: var(--b_high); }
-#player a.escape:hover { background-color:var(--b_high) !important; color:var(--background); }
+#player .button { border:2px solid var(--b_high) !important; color: var(--b_high); }
+#player .button:hover { background-color:var(--b_high) !important; color:var(--background); }
 #board card .face { background-color:var(--b_high)}
 .card_11 .face .name,.card_13 .face .name,.card_15 .face .name,.card_17 .face .name { color:var(--b_high);}
 #player .gage { color:var(--b_high) }

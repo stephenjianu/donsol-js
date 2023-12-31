@@ -5,6 +5,7 @@ function Player () {
   this.health = new Gage_Health('Health', 21, '#ff0000')
   this.shield = new Gage_Shield('Shield', 0, '#72dec2')
   this.experience = new Gage('Experience', 0, '#ffffff')
+  this.settings = new Settings()
 
   this.can_drink = true
   this.has_escaped = false
@@ -33,11 +34,12 @@ function Player () {
   }
 
   this.install = function () {
+    this.element.appendChild(this.settings.install())
     this.element.appendChild(this.experience.install())
     this.element.appendChild(this.shield.install())
     this.element.appendChild(this.health.install())
 
-    this.escape_button.setAttribute('class', 'escape')
+    this.escape_button.setAttribute('class', 'escape button')
     this.escape_button.innerHTML = 'Escape'
     this.element.appendChild(this.escape_button)
     this.timeline_element.setAttribute('class', 'timeline')
@@ -143,6 +145,23 @@ function Player () {
     donsol.board.return_cards()
     donsol.board.enter_room()
     donsol.timeline.add_event('Escaped the room!')
+  }
+
+  this.change_theme = function (theme_value) {
+    let new_theme = ''
+    if (theme_value.localeCompare('theme') === 0) {
+      new_theme = donsol.defaultTheme
+    }
+    if (theme_value.localeCompare('gameboy') === 0) {
+      new_theme = donsol.gameboyTheme
+    }
+    if (theme_value.localeCompare('nightowl') === 0) {
+      new_theme = donsol.nightowlTheme
+    }
+    donsol.theme = new Theme(new_theme)
+    donsol.theme.load(new_theme)
+    donsol.theme.install(document.body)
+    donsol.theme.start()
   }
 
   this.update = function () {

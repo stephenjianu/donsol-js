@@ -7,7 +7,7 @@ const SPADE = 'spade'
 const JOKER = 'joker'
 
 function Donsol () {
-  const defaultTheme = {
+  this.defaultTheme = {
     background: '#000000',
     f_high: '#000000',
     f_med: '#a93232',
@@ -18,8 +18,30 @@ function Donsol () {
     b_low: '#333333',
     b_inv: '#a93232'
   }
+  this.gameboyTheme = {
+    background: '#9BBC0F',
+    f_high: '#0F380F',
+    f_med: '#0F380F',
+    f_low: '#306230',
+    f_inv: '#9BBC0F',
+    b_high: '#8BAC0F',
+    b_med: '#8BAC0F',
+    b_low: '#9BBC0F',
+    b_inv: '#0F380F'
+  }
+  this.nightowlTheme = {
+    background: '#011627',
+    f_high: '#7fdbca',
+    f_med: '#82aaff',
+    f_low: '#c792ea',
+    f_inv: '#637777',
+    b_high: '#5f7e97',
+    b_med: '#456075',
+    b_low: '#2f4759',
+    b_inv: '#7fdbca'
+  }
 
-  this.theme = new Theme(defaultTheme)
+  this.theme = new Theme(this.defaultTheme)
 
   this.deck = new Deck()
   this.board = new Board()
