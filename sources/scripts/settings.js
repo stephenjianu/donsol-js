@@ -14,6 +14,7 @@ function Settings () {
     this.theme_button.innerHTML += '<option value=\"gameboy\">Game Boy</option>'
     this.theme_button.innerHTML += '<option value=\"nightowl\">Night Owl</option>'
     this.theme_button.addEventListener('mousedown', () => { donsol.player.change_theme(this.theme_button.value) })
+    this.theme_button.addEventListener('change', () => { donsol.player.change_theme(this.theme_button.value) })
 
     this.element.appendChild(this.theme_button)
 
