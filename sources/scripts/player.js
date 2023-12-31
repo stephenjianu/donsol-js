@@ -158,6 +158,12 @@ function Player () {
     if (theme_value.localeCompare('nightowl') === 0) {
       new_theme = donsol.nightowlTheme
     }
+    if (theme_value.localeCompare('roguelite') === 0) {
+      new_theme = donsol.rogueliteTheme
+    }
+    if (theme_value.localeCompare('tape') === 0) {
+      new_theme = donsol.tapeTheme
+    }
     donsol.theme = new Theme(new_theme)
     donsol.theme.load(new_theme)
     donsol.theme.install(document.body)

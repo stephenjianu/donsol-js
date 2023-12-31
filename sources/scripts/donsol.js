@@ -40,6 +40,28 @@ function Donsol () {
     b_low: '#2f4759',
     b_inv: '#7fdbca'
   }
+  this.rogueliteTheme = {
+    background: '#352b31',
+    f_high: '#f5f5d4',
+    f_med: '#70838c',
+    f_low: '#4a6b83',
+    f_inv: '#352b31',
+    b_high: '#96cf85',
+    b_med: '#5a6970',
+    b_low: '#4a3b44',
+    b_inv: '#f5f5d4'
+  }
+  this.tapeTheme = {
+    background: '#dad7cd',
+    f_high: '#696861',
+    f_med: '#ffffff',
+    f_low: '#b3b2ac',
+    f_inv: '#43423e',
+    b_high: '#43423e',
+    b_med: '#c2c1bb',
+    b_low: '#e5e3dc',
+    b_inv: '#eb3f48'
+  }
 
   this.theme = new Theme(this.defaultTheme)
 
