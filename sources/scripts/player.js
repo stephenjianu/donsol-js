@@ -158,6 +158,9 @@ function Player () {
     if (theme_value.localeCompare('battlestation') === 0) {
       new_theme = donsol.battlestationTheme
     }
+    if (theme_value.localeCompare('berry') === 0) {
+      new_theme = donsol.berryTheme
+    }
     if (theme_value.localeCompare('gameboy') === 0) {
       new_theme = donsol.gameboyTheme
     }
