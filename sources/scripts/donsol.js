@@ -29,6 +29,17 @@ function Donsol () {
     b_low: '#322e33',
     b_inv: '#e47464'
   }
+  this.battlestationTheme = {
+    background: '#222222',
+    f_high: '#ffffff',
+    f_med: '#affec7',
+    f_low: '#888888',
+    f_inv: '#000000',
+    b_high: '#555555',
+    b_med: '#333333',
+    b_low: '#111111',
+    b_inv: '#affec7'
+  }
   this.gameboyTheme = {
     background: '#9BBC0F',
     f_high: '#0F380F',
