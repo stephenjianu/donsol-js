@@ -18,6 +18,17 @@ function Donsol () {
     b_low: '#333333',
     b_inv: '#a93232'
   }
+  this.apolloTheme= {
+    background: '#29272b',
+    f_high: '#ffffff',
+    f_med: '#e47464',
+    f_low: '#66606b',
+    f_inv: '#000000',
+    b_high: '#000000',
+    b_med: '#201e21',
+    b_low: '#322e33',
+    b_inv: '#e47464'
+  }
   this.gameboyTheme = {
     background: '#9BBC0F',
     f_high: '#0F380F',

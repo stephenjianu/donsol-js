@@ -11,6 +11,7 @@ function Settings () {
     this.theme_button = document.createElement('select')
     this.theme_button.setAttribute('class', 'theme button')
     this.theme_button.innerHTML = '<option value=\"theme\">Theme (default)</option>'
+    this.theme_button.innerHTML += '<option value=\"apollo\">Apollo</option>'
     this.theme_button.innerHTML += '<option value=\"gameboy\">Game Boy</option>'
     this.theme_button.innerHTML += '<option value=\"nightowl\">Night Owl</option>'
     this.theme_button.innerHTML += '<option value=\"roguelite\">Roguelite</option>'

@@ -152,6 +152,9 @@ function Player () {
     if (theme_value.localeCompare('theme') === 0) {
       new_theme = donsol.defaultTheme
     }
+    if (theme_value.localeCompare('apollo') === 0) {
+      new_theme = donsol.apolloTheme
+    }
     if (theme_value.localeCompare('gameboy') === 0) {
       new_theme = donsol.gameboyTheme
     }
