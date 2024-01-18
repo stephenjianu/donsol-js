@@ -95,6 +95,17 @@ function Donsol () {
     b_low: '#15232D',
     b_inv: '#ffffff'
   }
+  this.commodoreTheme = {
+    background: '#a5a7fc',
+    f_high: '#ffffff',
+    f_med: '#444ae3',
+    f_low: '#ffd7cd',
+    f_inv: '#444ae3',
+    b_high: '#c2c4ff',
+    b_med: '#babcff',
+    b_low: '#b0b2ff',
+    b_inv: '#ffffff'
+  }
   this.gameboyTheme = {
     background: '#9BBC0F',
     f_high: '#0F380F',
