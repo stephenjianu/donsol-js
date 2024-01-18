@@ -62,6 +62,17 @@ function Donsol () {
     b_low: '#778899',
     b_inv: '#6B8E23'
   }
+  this.boysenberryTheme = {
+    background: '#171717',
+    f_high: '#efefef',
+    f_med: '#999999',
+    f_low: '#873260',
+    f_inv: '#919191',
+    b_high: '#373737',
+    b_med: '#272727',
+    b_low: '#000000',
+    b_inv: '#873260'
+  }
   this.gameboyTheme = {
     background: '#9BBC0F',
     f_high: '#0F380F',

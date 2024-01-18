@@ -164,6 +164,9 @@ function Player () {
     if (theme_value.localeCompare('bigtime') === 0) {
       new_theme = donsol.bigtimeTheme
     }
+    if (theme_value.localeCompare('boysenberry') === 0) {
+      new_theme = donsol.boysenberryTheme
+    }
     if (theme_value.localeCompare('gameboy') === 0) {
       new_theme = donsol.gameboyTheme
     }
