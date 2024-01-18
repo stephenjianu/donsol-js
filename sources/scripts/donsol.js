@@ -117,6 +117,17 @@ function Donsol () {
     b_low: '#9acd32',
     b_inv: '#000000'
   }
+  this.frameioTheme = {
+    background: '#333848',
+    f_high: '#cccccc',
+    f_med: '#5b52fe',
+    f_low: '#4c576f',
+    f_inv: '#ffffff',
+    b_high: '#edeef2',
+    b_med: '#262b37',
+    b_low: '#394153',
+    b_inv: '#5b52fe'
+  }
   this.gameboyTheme = {
     background: '#9BBC0F',
     f_high: '#0F380F',
