@@ -106,6 +106,17 @@ function Donsol () {
     b_low: '#b0b2ff',
     b_inv: '#ffffff'
   }
+  this.forestlawnTheme = {
+    background: '#cd853f',
+    f_high: '#000000',
+    f_med: '#8b0000',
+    f_low: '#8b4513',
+    f_inv: '#00ced1',
+    b_high: '#90ee90',
+    b_med: '#32cd32',
+    b_low: '#9acd32',
+    b_inv: '#000000'
+  }
   this.gameboyTheme = {
     background: '#9BBC0F',
     f_high: '#0F380F',

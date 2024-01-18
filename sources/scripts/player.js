@@ -176,6 +176,9 @@ function Player () {
     if (theme_value.localeCompare('commodore') === 0) {
       new_theme = donsol.commodoreTheme
     }
+    if (theme_value.localeCompare('forestlawn') === 0) {
+      new_theme = donsol.forestlawnTheme
+    }
     if (theme_value.localeCompare('gameboy') === 0) {
       new_theme = donsol.gameboyTheme
     }
