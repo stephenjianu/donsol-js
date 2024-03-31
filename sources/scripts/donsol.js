@@ -139,6 +139,17 @@ function Donsol () {
     b_low: '#9BBC0F',
     b_inv: '#0F380F'
   }
+  this.gardenTheme = {
+    background: '#28211c',
+    f_high: '#ffefc9',
+    f_med: '#9f9fa2',
+    f_low: '#a3832c',
+    f_inv: '#666666',
+    b_high: '#aa0000',
+    b_med: '#214c05',
+    b_low: '#48413a',
+    b_inv: '#4cb1cf'
+  }
   this.nightowlTheme = {
     background: '#011627',
     f_high: '#7fdbca',

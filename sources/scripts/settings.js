@@ -22,6 +22,7 @@ function Settings () {
     this.theme_button.innerHTML += '<option value=\"forestlawn\">Forest Lawn</option>'
     this.theme_button.innerHTML += '<option value=\"frameio\">Frame.io</option>'
     this.theme_button.innerHTML += '<option value=\"gameboy\">Game Boy</option>'
+    this.theme_button.innerHTML += '<option value=\"garden\">Garden</option>'
     this.theme_button.innerHTML += '<option value=\"nightowl\">Night Owl</option>'
     this.theme_button.innerHTML += '<option value=\"roguelite\">Roguelite</option>'
     this.theme_button.innerHTML += '<option value=\"tape\">Tape</option>'
