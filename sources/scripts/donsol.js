@@ -161,6 +161,17 @@ function Donsol () {
     b_low: '#10151B',
     b_inv: '#8FAF9F'
   }
+  this.haxeTheme = {
+    background: '#141419',
+    f_high: '#FAB20B',
+    f_med: '#F47216',
+    f_low: '#F1471D',
+    f_inv: '#141419',
+    b_high: '#141419',
+    b_med: '#141419',
+    b_low: '#141419',
+    b_inv: '#FFFFFF'
+  }
   this.nightowlTheme = {
     background: '#011627',
     f_high: '#7fdbca',
