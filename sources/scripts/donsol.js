@@ -172,6 +172,17 @@ function Donsol () {
     b_low: '#141419',
     b_inv: '#FFFFFF'
   }
+  this.isotopeTheme = {
+    background: '#000000',
+    f_high: '#FFFFFF',
+    f_med: '#33FF00',
+    f_low: '#FF0099',
+    f_inv: '#000000',
+    b_high: '#505050',
+    b_med: '#000000',
+    b_low: '#000000',
+    b_inv: '#FFFFFF'
+  }
   this.nightowlTheme = {
     background: '#011627',
     f_high: '#7fdbca',
