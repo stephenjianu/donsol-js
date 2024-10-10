@@ -183,6 +183,17 @@ function Donsol () {
     b_low: '#000000',
     b_inv: '#FFFFFF'
   }
+  this.kawaiiTheme = {
+    background: '#d09090',
+    f_high: '#000000',
+    f_med: '#fffafa',
+    f_low: '#6ea2a1',
+    f_inv: '#ff1493',
+    b_high: '#7fffd4',
+    b_med: '#6ADEDC',
+    b_low: '#b08686',
+    b_inv: '#7fffd4'
+  }
   this.nightowlTheme = {
     background: '#011627',
     f_high: '#7fdbca',

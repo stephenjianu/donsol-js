@@ -26,6 +26,7 @@ function Settings () {
     this.theme_button.innerHTML += '<option value=\"gotham\">Gotham</option>'
     this.theme_button.innerHTML += '<option value=\"haxe\">Haxe</option>'
     this.theme_button.innerHTML += '<option value=\"isotope\">Isotope</option>'
+    this.theme_button.innerHTML += '<option value=\"kawaii\">Kawaii</option>'
     this.theme_button.innerHTML += '<option value=\"nightowl\">Night Owl</option>'
     this.theme_button.innerHTML += '<option value=\"roguelite\">Roguelite</option>'
     this.theme_button.innerHTML += '<option value=\"tape\">Tape</option>'

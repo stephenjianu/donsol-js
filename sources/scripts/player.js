@@ -197,6 +197,9 @@ function Player () {
     if (theme_value.localeCompare('isotope') === 0) {
       new_theme = donsol.isotopeTheme
     }
+    if (theme_value.localeCompare('kawaii') === 0) {
+      new_theme = donsol.kawaiiTheme
+    }
     if (theme_value.localeCompare('nightowl') === 0) {
       new_theme = donsol.nightowlTheme
     }
