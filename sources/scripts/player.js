@@ -188,6 +188,9 @@ function Player () {
     if (theme_value.localeCompare('garden') === 0) {
       new_theme = donsol.gardenTheme
     }
+    if (theme_value.localeCompare('gotham') === 0) {
+      new_theme = donsol.gothamTheme
+    }
     if (theme_value.localeCompare('nightowl') === 0) {
       new_theme = donsol.nightowlTheme
     }
