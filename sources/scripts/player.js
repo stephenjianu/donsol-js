@@ -212,6 +212,9 @@ function Player () {
     if (theme_value.localeCompare('marble') === 0) {
       new_theme = donsol.marbleTheme
     }
+    if (theme_value.localeCompare('murata') === 0) {
+      new_theme = donsol.murataTheme
+    }
     if (theme_value.localeCompare('nightowl') === 0) {
       new_theme = donsol.nightowlTheme
     }

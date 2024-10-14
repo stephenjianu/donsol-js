@@ -238,6 +238,17 @@ function Donsol () {
     b_low: '#CFD2CD',
     b_inv: '#676164'
   }
+  this.murataTheme = {
+    background: '#111111',
+    f_high: '#ffffff',
+    f_med: '#e8dacb',
+    f_low: '#5a6970',
+    f_inv: '#000000',
+    b_high: '#bbbbbb',
+    b_med: '#8498a2',
+    b_low: '#333333',
+    b_inv: '#b9615a'
+  }
   this.nightowlTheme = {
     background: '#011627',
     f_high: '#7fdbca',
