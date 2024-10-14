@@ -205,6 +205,17 @@ function Donsol () {
     b_low: '#151417',
     b_inv: '#ff2851'
   }
+  this.lotusTheme = {
+    background: '#161616',
+    f_high: '#f0c098',
+    f_med: '#999999',
+    f_low: '#444444',
+    f_inv: '#222222',
+    b_high: '#ffffff',
+    b_med: '#333333',
+    b_low: '#222222',
+    b_inv: '#f0c098'
+  }
   this.nightowlTheme = {
     background: '#011627',
     f_high: '#7fdbca',
