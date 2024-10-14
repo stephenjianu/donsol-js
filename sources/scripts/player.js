@@ -221,6 +221,9 @@ function Player () {
     if (theme_value.localeCompare('nightowl') === 0) {
       new_theme = donsol.nightowlTheme
     }
+    if (theme_value.localeCompare('ninetynine') === 0) {
+      new_theme = donsol.ninetynineTheme
+    }
     if (theme_value.localeCompare('roguelite') === 0) {
       new_theme = donsol.rogueliteTheme
     }

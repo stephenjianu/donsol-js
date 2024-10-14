@@ -271,6 +271,17 @@ function Donsol () {
     b_low: '#2f4759',
     b_inv: '#7fdbca'
   }
+  this.ninetynineTheme = {
+    background: '#000000',
+    f_high: '#efefef',
+    f_med: '#cdcdcd',
+    f_low: '#676767',
+    f_inv: '#0a0a0a',
+    b_high: '#eeeeee',
+    b_med: '#ffd220',
+    b_low: '#464646',
+    b_inv: '#ff3300'
+  }
   this.rogueliteTheme = {
     background: '#352b31',
     f_high: '#f5f5d4',
