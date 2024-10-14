@@ -194,6 +194,17 @@ function Donsol () {
     b_low: '#b08686',
     b_inv: '#7fffd4'
   }
+  this.laundryTheme = {
+    background: '#1b1a1e',
+    f_high: '#ffffff',
+    f_med: '#ff2851',
+    f_low: '#3e3d42',
+    f_inv: '#000000',
+    b_high: '#bdbcc1',
+    b_med: '#63606b',
+    b_low: '#151417',
+    b_inv: '#ff2851'
+  }
   this.nightowlTheme = {
     background: '#011627',
     f_high: '#7fdbca',

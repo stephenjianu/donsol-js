@@ -200,6 +200,9 @@ function Player () {
     if (theme_value.localeCompare('kawaii') === 0) {
       new_theme = donsol.kawaiiTheme
     }
+    if (theme_value.localeCompare('laundry') === 0) {
+      new_theme = donsol.laundryTheme
+    }
     if (theme_value.localeCompare('nightowl') === 0) {
       new_theme = donsol.nightowlTheme
     }
