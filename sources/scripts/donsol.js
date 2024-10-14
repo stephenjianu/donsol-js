@@ -282,6 +282,17 @@ function Donsol () {
     b_low: '#464646',
     b_inv: '#ff3300'
   }
+  this.noirTheme = {
+    background: '#222222',
+    f_high: '#ffffff',
+    f_med: '#cccccc',
+    f_low: '#999999',
+    f_inv: '#ffffff',
+    b_high: '#888888',
+    b_med: '#666666',
+    b_low: '#444444',
+    b_inv: '#000000'
+  }
   this.rogueliteTheme = {
     background: '#352b31',
     f_high: '#f5f5d4',

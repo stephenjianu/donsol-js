@@ -35,6 +35,7 @@ function Settings () {
     this.theme_button.innerHTML += '<option value=\"muzieca\">Muzieca</option>'
     this.theme_button.innerHTML += '<option value=\"nightowl\">Night Owl</option>'
     this.theme_button.innerHTML += '<option value=\"ninetynine\">Ninety Nine</option>'
+    this.theme_button.innerHTML += '<option value=\"noir\">Noir</option>'
     this.theme_button.innerHTML += '<option value=\"roguelite\">Roguelite</option>'
     this.theme_button.innerHTML += '<option value=\"tape\">Tape</option>'
     this.theme_button.addEventListener('mousedown', () => { donsol.player.change_theme(this.theme_button.value) })
