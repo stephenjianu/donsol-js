@@ -206,6 +206,9 @@ function Player () {
     if (theme_value.localeCompare('lotus') === 0) {
       new_theme = donsol.lotusTheme
     }
+    if (theme_value.localeCompare('mahou') === 0) {
+      new_theme = donsol.mahouTheme
+    }
     if (theme_value.localeCompare('nightowl') === 0) {
       new_theme = donsol.nightowlTheme
     }

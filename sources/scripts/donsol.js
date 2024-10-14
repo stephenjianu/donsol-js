@@ -216,6 +216,17 @@ function Donsol () {
     b_low: '#222222',
     b_inv: '#f0c098'
   }
+  this.mahouTheme = {
+    background: '#E0B1CB',
+    f_high: '#231942',
+    f_med: '#48416d',
+    f_low: '#917296',
+    f_inv: '#E0B1CB',
+    b_high: '#5E548E',
+    b_med: '#FFFFFF',
+    b_low: '#BE95C4',
+    b_inv: '#9F86C0'
+  }
   this.nightowlTheme = {
     background: '#011627',
     f_high: '#7fdbca',
