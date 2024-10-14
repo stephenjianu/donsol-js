@@ -32,6 +32,7 @@ function Settings () {
     this.theme_button.innerHTML += '<option value=\"mahou\">Mahou</option>'
     this.theme_button.innerHTML += '<option value=\"marble\">Marble</option>'
     this.theme_button.innerHTML += '<option value=\"murata\">Murata</option>'
+    this.theme_button.innerHTML += '<option value=\"muzieca\">Muzieca</option>'
     this.theme_button.innerHTML += '<option value=\"nightowl\">Night Owl</option>'
     this.theme_button.innerHTML += '<option value=\"roguelite\">Roguelite</option>'
     this.theme_button.innerHTML += '<option value=\"tape\">Tape</option>'

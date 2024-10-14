@@ -215,6 +215,9 @@ function Player () {
     if (theme_value.localeCompare('murata') === 0) {
       new_theme = donsol.murataTheme
     }
+    if (theme_value.localeCompare('muzieca') === 0) {
+      new_theme = donsol.muziecaTheme
+    }
     if (theme_value.localeCompare('nightowl') === 0) {
       new_theme = donsol.nightowlTheme
     }
