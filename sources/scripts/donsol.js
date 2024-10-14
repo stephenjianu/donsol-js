@@ -304,6 +304,17 @@ function Donsol () {
     b_low: '#3B4252',
     b_inv: '#ABCDCC'
   }
+  this.obsidianTheme = {
+    background: '#22282a',
+    f_high: '#f1f2f3',
+    f_med: '#93c763',
+    f_low: '#ec7600',
+    f_inv: '#963a46',
+    b_high: '#678cb1',
+    b_med: '#4f6164',
+    b_low: '#42464C',
+    b_inv: '#ffcd22'
+  }
   this.rogueliteTheme = {
     background: '#352b31',
     f_high: '#f5f5d4',

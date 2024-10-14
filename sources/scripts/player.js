@@ -230,6 +230,9 @@ function Player () {
     if (theme_value.localeCompare('nord') === 0) {
       new_theme = donsol.nordTheme
     }
+    if (theme_value.localeCompare('obsidian') === 0) {
+      new_theme = donsol.obsidianTheme
+    }
     if (theme_value.localeCompare('roguelite') === 0) {
       new_theme = donsol.rogueliteTheme
     }
