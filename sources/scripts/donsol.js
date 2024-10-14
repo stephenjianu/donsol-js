@@ -227,6 +227,17 @@ function Donsol () {
     b_low: '#BE95C4',
     b_inv: '#9F86C0'
   }
+  this.marbleTheme = {
+    background: '#FBFBF2',
+    f_high: '#3a3738',
+    f_med: '#847577',
+    f_low: '#bdb8b8',
+    f_inv: '#A6A2A2',
+    b_high: '#676164',
+    b_med: '#A6A2A2',
+    b_low: '#CFD2CD',
+    b_inv: '#676164'
+  }
   this.nightowlTheme = {
     background: '#011627',
     f_high: '#7fdbca',
